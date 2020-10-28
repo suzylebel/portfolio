@@ -31,4 +31,12 @@ View the GitHub [page](https://suzylebel.github.io/portfolio/)
 ## Updated Portfolio
 
 
-### Design
+### Design Images
+
+![](Assets/readme_images/index.png)
+![](Assets/readme_images/portfolio.png)
+![](Assets/readme_images/skills.png)
+![](Assets/readme_images/contact.png)
+
+
+I redesigned my portfolio and gave it a facelift. The images above show the improvements from my first portfolio!
