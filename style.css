@@ -1,172 +1,250 @@
-
-
-/* html {
-    background: linear-gradient(-45deg, #2f4353, #2f4353, gray,hsl(0, 0%, 0%));
-    /* background-size: 600% 600%; */
-    animation: gradient 15s ease infinite;
-} */
-
-.background-body {
-    color: black;
-    background-color: transparent;
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
 }
 
-.backgroundbox {
-    background-color: transparent;
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
 h4 {
-    color: #4aaaa5;
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
-a:visited {
-    color: white;
-  }
-
-  a:link {
-    color: white;
-  }
-  a:hover {
-    color: #4aaaa5;
-  }
-
-.white {
-    color: white;
-}  
-
-.white:hover {
-    color: #4aaaa5;
+.jumbotron {
+    background-color:#daa520;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
 }
 
-.centerboxtext {
-    text-align: center;
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small {
+    color: #Fdbc00;
+    font-size: 50px;
+}
+
+.box {
+    max-width: 300px;
+    max-height: 300px;
+    /* float: left; */
+    margin: 10px 20px 0px;
+
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.panel {
+    border: 1px solid #f4511e;
+    border-radius: 0 !important;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #daa520; !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: white !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #daa520;;
+    color: #fff;
 }
 
 .navbar {
-	/* padding: 0px 10px 0px 10px; */
-	border-bottom: 2px solid #bbbbbb;
-    background-color: #ffffff;
-    width: 100%;
-	
-}
-.navbar-brand {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 26px;
-    /* background-color: #4aaaa5; */
-    padding: 30px 10px 10px 5px;
-    font-weight: 700;
-
+    margin-bottom: 0;
+    background-color: #daa520;;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
 }
 
-.header-name {
-	color: #ffffff;
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
 }
 
-.nav .header .nav-item {
-    /* padding-top: 15px; */
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #daa520; !important;
+    background-color: #ba8b00 !important;
+}
+
+.navbar-default  {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+footer {
     font-size: 20px;
-}
-
-.nav-link {
-    color: gray;
-}
-
-/* style /content */
-
-.content {
-    background-color: white
-}
-
-/* Header style within NavBar */
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding: 10px 10px 10px 10px;
-    font-weight: 700;
-}
-
-/* Portfolio box */
-
-
-/* picture inside About Me container */
-.box {
-	max-width: 350px;
-	max-height: 350px;
-	float: left;
-	margin: 10px 20px 0px;
-
-}
-
-.pic {
-	max-width: 330px;
-	max-height: 330px;
-	float: left;
-	margin: 10px 20px 0px;
-
-}
-
-
-
-/* layout/style */
-h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 36px;
-	color: #4aaaa5;
-	padding: 20px 10px 10px 20px;
-    font-weight: 700;
-}  
-
-
-    
-
-.footer {
-        position: fixed; 
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        margin-top: -80px;
-        height: 80px;
-        line-height: 80px;
-        background-color: #666666;
-        text-align: center;
-        border-top: 5px solid #4aaaa5;
-        font-size: 12px;
-        padding-top: 8px;
-}
-
-
-
-.active {
+    margin-bottom: 20px;
     color: black;
 }
 
-.button {
-    background-color: #4aaaa5;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-      
+/* a:visited {
+color: #Fdbc00;
+} */
+
+/* a:link {
+color: #Fdbc00;
+}
+a:hover {
+color: #b48a01;
+} */
+
+.pic {
+    max-width: 330px;
+    max-height: 330px;
+    float: left;
+    margin: 10px 20px 0px;
+
 }
 
-/*  */
-
-hr {
-    border: 0;
-    height: 1px;
-    background: rgb(167, 159, 159);
-   
+.slideanim {
+    visibility: hidden;
 }
 
- 
+.butstyle {
+    color: #white;
+    background-color: #daa520;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
