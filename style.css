@@ -20,6 +20,11 @@ h4 {
     margin-bottom: 30px;
 }
 
+.navicon li a:hover {
+    color: black;
+
+}
+
 .jumbotron {
     background-color:#daa520;
     color: #fff;
@@ -160,6 +165,12 @@ h4 {
     background-color: #ba8b00 !important;
 }
 
+.navbar-brand li a:hover,
+.navbar-brand li.active a {
+    color: #daa520; !important;
+    background-color: #ba8b00 !important;
+}
+
 .navbar-default  {
     border-color: transparent;
     color: #fff !important;
@@ -167,8 +178,9 @@ h4 {
 
 footer {
     font-size: 20px;
-    margin-bottom: 20px;
-    color: black;
+    /* margin-bottom: 20px; */
+    color: white;
+    background-color: #daa520;
 }
 
 /* a:visited {

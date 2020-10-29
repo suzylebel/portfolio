@@ -27,9 +27,16 @@
 
                 </button>
                 <a class="navbar-brand" href="#myPage">SUZY LE BEL</a>
+                
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
+                    <a href="https://www.linkedin.com/in/suzanne-le-bel-b24032125/"> <i class="navbar-brand navicon fab fa-linkedin"
+                        style="font-size:20px"></i> </a>
+    
+                <a href="https://github.com/suzylebel">
+                    <i class="navicon navbar-brand fab fa-github-square" style="font-size:20px"></i>
+                </a>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="./Assets/suzylebel_resume_download.pdf" download>RESUME</a></li>
@@ -71,7 +78,7 @@
 
     <!-- Web Dev Knowledge -->
     <div id="services" class="container-fluid text-center">
-        <h2>My Skills</h2>
+        <h2>My Coding Skills</h2>
         <br>
         <div class="row slideanim">
             <div class="col-sm-4">
@@ -93,7 +100,33 @@
             </div>
         </div>
         <br>
+        <br>
+        <br>
+        <div id="services" class="container-fluid text-center">
+            <h2>Design Skills</h2>
+            <br>
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <i class="fas fa-camera logo-small"></i>
+                    <h4>Photography</h4>
+                    <p>My passion for the outdoors and traveling comes from behind the lens. My photography business is my side hustle, and I love taking photos for clients.</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fas fa-video logo-small"></i>
+                    <h4>Video Editing</h4>
+                    <p>I graduated with a Bachelors in Journalism and an emphasis in Documentary Filmmaking due to my love for creating visually compelling content.</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fas fa-paint-brush logo-small"></i>
+                    <h4>Design</h4>
+                    <p>With expert level experience in over 5 of the Adobe Suite programs, I design content for work with photoshop, Indesign, Illustrator and so much more! </p>
+                </div>
+            </div>
+            <br>
+            <br>
 
+        <br>
+        <br>
         <br>
 
 
@@ -135,6 +168,9 @@
                 </div>
             </div>
         </div><br>
+        <br>
+        <br>
+        <br>
 
         <!-- contact -->
         <div id="contact" class="container-fluid bg-grey">
@@ -182,7 +218,7 @@
 
         <footer class="container-fluid text-center">
             <a href="#myPage" title="To Top">
-                <span class="glyphicon glyphicon-chevron-up"></span>
+                <span class="navbar-header glyphicon glyphicon-chevron-up"></span>
             </a>
             <p>Suzy Le Bel &copy 2020</p>
         </footer>
@@ -195,8 +231,6 @@
                     if (this.hash !== "") {
 
                         event.preventDefault();
-
-                        // Store hash
                         var hash = this.hash;
 
                         $('html, body').animate({
