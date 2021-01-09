@@ -2,14 +2,19 @@
 
 Explore the [project page](https://github.com/suzylebel/portfolio)
 View the GitHub [page](https://suzylebel.github.io/portfolio/)
+
+[video walkthrough of website](Assets/readme_images/Portfolio.gif) 
    
 
 
-# Updating Portfolio
+# Updated Portfolio Jan 2021
+
+Edits: Updated January 9, 2021 from previous portfolio update. 
+Added projects and added more detail about what I have learned in the bootcamp. Updated my ReadMe and added a animated gif for a workthrough of the portfolio page. 
 
 ## Requirements
 
-* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Submit an updated portfolio featuring Project 2 and two exemplary homework assignments.
 
 * Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
@@ -38,5 +43,3 @@ View the GitHub [page](https://suzylebel.github.io/portfolio/)
 ![](Assets/readme_images/skills.png)
 ![](Assets/readme_images/contact.png)
 
-
-I redesigned my portfolio and gave it a facelift. The images above show the improvements from my first portfolio!
