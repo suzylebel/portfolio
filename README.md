@@ -1,8 +1,9 @@
-***HOMEWORK ASSIGNMENT 2: My Portfolio***
+**HOMEWORK ASSIGNMENT 2: My Portfolio**
 
 Explore the [project page](https://github.com/suzylebel/portfolio)
 View the GitHub [page](https://suzylebel.github.io/portfolio/)
 
+## Click here to watch 
 [video walkthrough of website](Assets/readme_images/Portfolio.gif) 
    
 
