@@ -19,9 +19,13 @@ Added projects and added more detail about what I have learned in the bootcamp. 
 
 * Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
+[github profile](Assets/readme_images/githubscreen.png)
+
 * Submit an updated resume
 
 * Submit an updated LinkedIn profile
+
+[linkedin Profile](Assets/readme_images/linkedin.png)
 
 ## Grading
 
